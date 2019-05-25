@@ -2,21 +2,21 @@
   Created by IntelliJ IDEA.
   User: mcg
   Date: 25.05.2019
-  Time: 17:57
+  Time: 19:13
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Spring MVC Demo - Home Page</title>
+    <title>Hello World of Spring!</title>
 </head>
 <body>
 
-<h2>Welcome</h2>
+Hello World of Spring
 
-<hr>
+<br><br>
 
-<a href="showForm">Hello World form</a>
+Student name : ${param.studentName}
 
 </body>
 </html>
