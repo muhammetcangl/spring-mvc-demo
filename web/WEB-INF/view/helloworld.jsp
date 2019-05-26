@@ -22,7 +22,7 @@ Student name : ${param.studentName}
 
 The message : ${message}
 
-<img src="${pageContext.request.contextPath}/resources/images/hello-world.png"">
+<img src="${pageContext.request.contextPath}/resources/images/hello-world.jpeg">
 
 </body>
 </html>
