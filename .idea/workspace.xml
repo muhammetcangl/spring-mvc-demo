@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c51b9dac-5a81-4bea-8cdf-0e3b4d80aa69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCodeConstraintValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
     </list>
@@ -28,31 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding>
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -61,12 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="150">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#887#888#0" expanded="true" />
@@ -77,6 +52,10 @@
                 <element signature="e#1120#1121#0" expanded="true" />
                 <element signature="e#1172#1173#0" expanded="true" />
                 <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,17 +82,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="352">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
-              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +101,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCodeConstraintValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="435">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -144,8 +149,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -166,12 +172,14 @@
         <option value="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Student.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" />
-        <option value="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java" />
         <option value="$PROJECT_DIR$/src/resources/messages.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" />
         <option value="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCode.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" />
+        <option value="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCodeConstraintValidator.java" />
+        <option value="$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java" />
       </list>
     </option>
   </component>
@@ -364,7 +372,7 @@
       <updated>1558795070525</updated>
       <workItem from="1558795072805" duration="6149000" />
       <workItem from="1558865839783" duration="12768000" />
-      <workItem from="1558934973403" duration="2904000" />
+      <workItem from="1558934973403" duration="4844000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1558796778651</created>
@@ -422,14 +430,22 @@
       <option name="project" value="LOCAL" />
       <updated>1558886494615</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding RegExp and custom error message.">
+      <created>1558938481567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558938481567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21821000" />
+    <option name="totallyTimeSpent" value="23761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="686" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -479,7 +495,8 @@
     <MESSAGE value="Spring MVC data binding + @ModelAttribute annotation" />
     <MESSAGE value="Adding some form element" />
     <MESSAGE value="Adding validation and initBinder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding validation and initBinder." />
+    <MESSAGE value="Adding RegExp and custom error message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding RegExp and custom error message." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.jsp" />
@@ -575,39 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -625,9 +609,69 @@
     <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/com/mcg/springdemo/mvc/validation/CourseCodeConstraintValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/springdemo/mvc/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
           </folding>
         </state>
       </provider>
