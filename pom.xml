@@ -6,6 +6,7 @@
 
     <groupId>com.mcg.springdemo.mvc</groupId>
     <artifactId>spring-mvc-demo</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
